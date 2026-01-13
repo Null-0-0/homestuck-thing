@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="source/style.css">
+        <link rel="stylesheet" href="source/vn_style.css">
+        <link rel="stylesheet" href="source/gameEngineStyle.css">
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+        <div id="wrapper">
+
+            <h1> Page 5 </h1>
+
+            <div id="game_container" onclick="game_step()">
+
+                <div id="left_text" class="text-box"></div>
+                <div id="right_text" class="text-box"></div>
+
+                <div id="top_choice" class="choice"></div>
+                <div id="bottom_choice" class="choice"></div>
+
+            </div>
+
+            <br>
+
+            <div id="mute_button" onclick="mute()" style="display: none;">
+                Pause Audio
+            </div>
+
+            <audio id="song">
+                <source src="assets/music/cobalt_thief.mp3" type="audio/mpeg" id="music">
+            </audio>
+
+        </div>
+        </div>
+    
+        <script src="source/script.js"></script>
+        <script src="source/gameEngineScript.js"></script>
+
+    </body>
+</html>

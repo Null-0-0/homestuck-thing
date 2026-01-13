@@ -1,0 +1,195 @@
+body {
+    background-color: #535353;
+}
+
+#container {
+    
+    width: 950px;
+    margin: auto;
+    background: #c6c6c6;
+    height: auto;
+    
+}
+
+.dialogue {
+    padding-left: 30px;
+}
+
+.command {
+
+    padding-left: 30px;
+    font-family: "arial";
+
+}
+
+.tag-human {
+
+    color: black !important;
+    font-size: 11px;
+    margin-left: 50px;
+
+}
+
+.tag-troll {
+
+    color: black !important;
+    font-size: 11px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+#wrapper {
+
+    position: relative;
+    top: 30px;
+    width: 800px;
+    margin: auto;
+    background-color: #eee;
+    padding: 5px 20px 0px 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+
+    text-align: right;
+    font-size: 10px;
+
+}
+
+/* epilogues + homestuck 2 characters */
+
+.lylac { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #8e5594; }
+.lylac-plain { color: #8e5594; }
+
+.harry { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #0671cd; }
+.harry-plain { color: #0671cd; }
+
+.tavvy { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #2b0057; }
+.tavvy-plain { color: #2b0057; }
+
+.yiffy { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #d00009; }
+.yiffy-plain { color: #d00009; }
+
+.swiss { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #9aa4b0; }
+.swiss-plain { color: #9aa4b0; }
+
+/* ao3 homestuck workskin */
+
+.block {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eee;
+  border: 1px dashed gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+} 
+.pesterlog {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: courier, monospace;
+  color: #000000;
+}
+
+.john { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #0715cd; }
+.john-plain { color: #0715cd; }
+
+.rose { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #b536da; }
+.rose-plain { color: #b536da; }
+    
+.dave { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #e00707; }
+.dave-plain { color: #e00707; }
+    
+.jade { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #4ac925; }
+.jade-plain { color: #4ac925; }
+    
+.jane { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #0097d7; } /* modified because her colour is different in the epilogues for some reason */
+.jane-plain { color: #0097d7; }
+    
+.jake { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #1f9400; }
+.jake-plain { color: #1f9400; }
+    
+.roxy { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #ff6ff2; }
+.roxy-plain { color: #ff6ff2; }
+    
+.dirk { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #f2a400; }
+.dirk-plain { color: #f2a400; }
+    
+.AR { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #e00707; }
+.AR-plain { color: #e00707; }
+    
+.aradia { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #a10000; }
+.aradia-plain { color: #a10000; }
+    
+.tavros { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #a15000; }
+.tavros-plain { color: #a15000; }
+    
+.sollux { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #a1a100; }
+.sollux-plain { color: #a1a100; }
+    
+.karkat { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #7c7e81; } /* ditto */
+.karkat-plain { color: #7c7e81; }
+    
+.nepeta { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #416600; }
+.nepeta-plain { color: #416600; }
+    
+.kanaya { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #008141; }
+.kanaya-plain { color: #008141; }
+    
+.terezi { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #008282; }
+.terezi-plain { color: #008282; }
+
+.vriska { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #005682; }
+.vriska-plain { color: #005682; }
+    
+.equius { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #000056; }
+.equius-plain { color: #000056; }
+    
+.gamzee { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #2b0057; }
+.gamzee-plain { color: #2b0057; }
+    
+.eridan { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #6a006a; }
+.eridan-plain { color: #6a006a; }
+    
+.feferi { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #77003c; }
+.feferi-plain { color: #77003c; }
+    
+.calliope { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #a1a3a6; } /* ditto */
+.calliope-plain { color: #a1a3a6; }
+    
+.caliborn { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #323232; }
+.caliborn-plain { color: #323232; }
+    
+.kankri { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #ff0000; }
+.kankri-plain { color: #ff0000; }
+    
+.white { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #ffffff; }
+.white-plain { color: #ffffff; }
+    
+.dad { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #4b4b4b; }
+.dad-plain { color: #4b4b4b; }
+    
+.felt { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #2ed73a; }
+.felt-plain { color: #2ed73a; }
+    
+.limeblood { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #678900; }
+.limeblood-plain { color: #678900; }
+    
+.tavrisprite { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #0715cd; }
+.tavrisprite-plain { color: #0715cd; }
+    
+.black { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #000000; }
+.black-plain { color: #000000; }
+    
+.jasprose { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: undefined; }
+.jasprose-plain { color: undefined; }
+    
+.davepeta { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: undefined; }
+.davepeta-plain { color: undefined; }
