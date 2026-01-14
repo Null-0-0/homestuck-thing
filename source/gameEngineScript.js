@@ -1,4 +1,5 @@
 var animOver = false;
+var isWalking = false;
 
 class TalkSprite {
 
@@ -132,6 +133,7 @@ class WalkSprite {
 
             if (pos == initialPos - 50) {
 
+                isWalking = false;
                 walksprite_x = pos + "px";
                 walksprite.showLeft();
                 clearInterval(id);
@@ -163,6 +165,7 @@ class WalkSprite {
 
             if (pos == initialPos + 50) {
 
+                isWalking = false;
                 walksprite_x = pos + "px";
                 walksprite.showRight();
                 clearInterval(id);
@@ -194,6 +197,7 @@ class WalkSprite {
 
             if (pos == initialPos + 50) {
 
+                isWalking = false;
                 walksprite_y = pos + "px";
                 walksprite.showUp();
                 clearInterval(id);
@@ -225,6 +229,7 @@ class WalkSprite {
 
             if (pos == initialPos - 50) {
 
+                isWalking = false;
                 walksprite.showDown();
                 walksprite_y = pos + "px";
                 clearInterval(id);
@@ -298,27 +303,29 @@ var walksprite_y = "300px";
 var sprite_of_vriska_img = walksprite.image;
 
 let v_stand = new TalkSprite("doing something sillay =3/assets/poses/vriska_poses/left/stand.gif");
-funny = new Text("vriska", "I did nothing wrong!");
-funny.createText();
-v_stand.drawSprite();
 
 document.addEventListener("keypress", function onEvent(event) {
 
     animOver = false;
 
-    if (event.key === "a") {
+    if (event.key === "a" && isWalking == false && walksprite_x != "0px") {
+        isWalking = true;
         walksprite.walkLeft(walksprite_x);
     }
 
-    else if (event.key === "d") {
+    else if (event.key === "d" && isWalking == false && walksprite_x != "750px") {
+        isWalking = true;
         walksprite.walkRight(walksprite_x);
     }
 
-    else if (event.key === "w") {
+    else if (event.key === "w" && isWalking == false && walksprite_y != "550px") {
+        isWalking = true;
         walksprite.walkUp(walksprite_y);
+        console.log(walksprite_y)
     }
 
-    else if (event.key === "s") {
+    else if (event.key === "s" && isWalking == false && walksprite_y != "0px") {
+        isWalking = true;
         walksprite.walkDown(walksprite_y);
     }
 
